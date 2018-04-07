@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:visibility="visible"
+    tools:context="com.example.hp.myapplication.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/drive1"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/buttom"
+            android:lineSpacingExtra="8sp"
+            android:text="Driving by a minor (aged below 18).                                                                        INR 500                                                                                  4 r/w 181 Motor Vehicle Act"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/drive2"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/buttom"
+            android:lineSpacingExtra="8sp"
+            android:text="Letting an unlicensed fellow to drive.                                                                        INR 1000                                                                                      5 r/w 180 Motor Vehicle Act"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/drive3"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/buttom"
+            android:lineSpacingExtra="8sp"
+            android:text="Driving bikes/ two wheelers without wearing a helmet.                                                                   INR 100                                                                     129 r/w177 Motor Vehicle Act"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/drive4"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/buttom"
+            android:lineSpacingExtra="8sp"
+            android:text="Rough/ Reckless/ Negligent Driving                                                                                       INR 1000                                                                      177 Motor Vehicle Act"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

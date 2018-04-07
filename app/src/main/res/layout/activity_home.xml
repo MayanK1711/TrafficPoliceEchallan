@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.hp.myapplication.HomeActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="13dp"
+        android:elevation="10dp"
+        android:text="Home"
+        android:textColor="@android:color/background_light"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/But3"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:elevation="20dp"
+        android:text="View Challan"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/buttom"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteY="310dp"
+        android:layout_marginBottom="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/But2"
+        android:layout_alignStart="@+id/But2" />
+
+    <Button
+        android:id="@+id/But2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:elevation="20dp"
+        android:text="Search vehicle"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/buttom"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteY="310dp"
+        android:layout_marginBottom="46dp"
+        android:layout_above="@+id/But3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/But1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttom"
+        android:elevation="20dp"
+        android:text="Add Challan"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteY="310dp"
+        android:layout_above="@+id/But2"
+        android:layout_alignLeft="@+id/But2"
+        android:layout_alignStart="@+id/But2"
+        android:layout_marginBottom="48dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/policel"
+        android:layout_marginBottom="18dp"
+        android:layout_above="@+id/But1"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

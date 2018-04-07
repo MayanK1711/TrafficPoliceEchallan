@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:visibility="visible"
+    tools:context="com.example.hp.myapplication.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/butt18"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/buttom"
+            android:lineSpacingExtra="8sp"
+            android:text="Use of Offensive Number Plate for vehicle used in driving.                                                       INR100                                                                                                 CMVR 105 (2) (ii)"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/butt19"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/buttom"
+            android:lineSpacingExtra="8sp"
+            android:text="Displaying 'Applied For'.                                                             INR 4500                                                                              177 Motor Vehicle Act"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</ScrollView>
